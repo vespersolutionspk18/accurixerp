@@ -1,0 +1,3 @@
+**/setup/setup_wizard/data/uom_data.json,accurix.gettext.extractors.uom_data.extract
+**/setup/doctype/incoterm/incoterms.csv,accurix.gettext.extractors.incoterms.extract
+**/setup/setup_wizard/data/*.txt,accurix.gettext.extractors.lines_from_txt_file.extract

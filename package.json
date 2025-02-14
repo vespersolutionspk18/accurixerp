@@ -1,0 +1,18 @@
+{
+  "name": "accurix",
+  "description": "Open Source ERP System powered by the Frappe Framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/integra/accurix.git"
+  },
+  "homepage": "https://accurix.com",
+  "author": "Integra Strategy Pvt. Ltd.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/integra/accurix/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "onscan.js": "^1.5.2"
+  }
+}

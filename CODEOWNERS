@@ -1,0 +1,24 @@
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+
+accurix/accounts/               @ruthra-kumar
+accurix/assets/                 @khushi8112
+accurix/regional                @ruthra-kumar
+accurix/selling                 @ruthra-kumar
+accurix/support/                @ruthra-kumar
+pos*                            
+
+accurix/buying/                 @rohitwaghchaure
+accurix/maintenance/            @rohitwaghchaure
+accurix/manufacturing/          @rohitwaghchaure
+accurix/quality_management/     @rohitwaghchaure
+accurix/stock/                  @rohitwaghchaure
+accurix/subcontracting          @rohitwaghchaure
+
+accurix/controllers/            @ruthra-kumar @rohitwaghchaure
+accurix/patches/                @ruthra-kumar
+
+.github/                        @ruthra-kumar
+pyproject.toml                  @akhilnarang

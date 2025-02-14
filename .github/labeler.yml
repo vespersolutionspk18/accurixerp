@@ -1,0 +1,55 @@
+accounts:
+- accurix/accounts/*
+- accurix/controllers/accounts_controller.py
+- accurix/controllers/taxes_and_totals.py
+
+stock:
+- accurix/stock/*
+- accurix/controllers/stock_controller.py
+- accurix/controllers/item_variant.py
+
+assets:
+- accurix/assets/*
+
+regional:
+- accurix/regional/*
+
+selling:
+- accurix/selling/*
+- accurix/controllers/selling_controller.py
+
+buying:
+- accurix/buying/*
+- accurix/controllers/buying_controller.py
+
+support:
+- accurix/support/*
+
+POS:
+- pos*
+
+ecommerce:
+- accurix/e_commerce/*
+
+maintenance:
+- accurix/maintenance/*
+
+manufacturing:
+- accurix/manufacturing/*
+
+crm:
+- accurix/crm/*
+
+HR:
+- accurix/hr/*
+
+payroll:
+- accurix/payroll*
+
+projects:
+- accurix/projects/*
+
+# Any python files modifed but no test files modified
+needs-tests:
+- any: ['accurix/**/*.py']
+  all: ['!accurix/**/test*.py']
