@@ -1,12 +1,12 @@
 app_name = "accurix"
 app_title = "accurix"
-app_publisher = "Integra Strategy Pvt. Ltd."
+app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "info@accurix.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/integra/accurix"
+source_link = "https://github.com/frappe/accurix"
 app_logo_url = "/assets/accurix/images/accurix-logo.svg"
 app_home = "/app/home"
 
@@ -44,7 +44,7 @@ doctype_list_js = {
 	],
 }
 
-override_doctype_class = {"Address": "accurix.accounts.custom.address.accurixAddress"}
+override_doctype_class = {"Address": "accurix.accounts.custom.address.AccurixAddress"}
 
 override_whitelisted_methods = {"frappe.www.contact.send_message": "accurix.templates.utils.send_message"}
 

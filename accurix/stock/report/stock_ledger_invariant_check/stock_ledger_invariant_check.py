@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Integra Strategy Pvt. Ltd. and contributors
+# Copyright (c) 2021, Frappe Technologies Pvt. Ltd. and contributors
 # License: GNU GPL v3. See LICENSE
 
 import json

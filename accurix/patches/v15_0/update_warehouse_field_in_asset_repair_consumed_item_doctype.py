@@ -1,7 +1,7 @@
 import frappe
 
 
-# not able to use frappe.qb because of this bug https://github.com/integra/frappe/issues/20292
+# not able to use frappe.qb because of this bug https://github.com/frappe/frappe/issues/20292
 def execute():
 	if frappe.db.has_column("Asset Repair", "warehouse"):
 		# nosemgrep

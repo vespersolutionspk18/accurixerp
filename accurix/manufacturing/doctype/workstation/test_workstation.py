@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Integra Strategy Pvt. Ltd. and Contributors and Contributors
+# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors and Contributors
 # See license.txt
 import frappe
 from frappe.tests import IntegrationTestCase, UnitTestCase

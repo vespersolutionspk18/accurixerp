@@ -7,7 +7,7 @@ from frappe.contacts.doctype.address.address import (
 )
 
 
-class accurixAddress(Address):
+class AccurixAddress(Address):
 	def validate(self):
 		self.validate_reference()
 		self.update_compnay_address()

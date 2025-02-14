@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Integra Strategy Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -169,14 +169,33 @@ def add_standard_navbar_items():
 	navbar_settings = frappe.get_single("Navbar Settings")
 
 	# Translatable strings for below navbar items
-
+	__ = _("Documentation")
+	__ = _("User Forum")
+	__ = _("Report an Issue")
 
 	accurix_navbar_items = [
-		
+		{
+			"item_label": "Documentation",
+			"item_type": "Route",
+			"route": "https://docs.accurix.com/",
+			"is_standard": 1,
+		},
+		{
+			"item_label": "User Forum",
+			"item_type": "Route",
+			"route": "https://discuss.frappe.io",
+			"is_standard": 1,
+		},
+		{
+			"item_label": "Frappe School",
+			"item_type": "Route",
+			"route": "https://frappe.school?utm_source=in_app",
+			"is_standard": 1,
+		},
 		{
 			"item_label": "Report an Issue",
 			"item_type": "Route",
-			"route": "https://integrastrategy.tech/contact",
+			"route": "https://github.com/frappe/accurix/issues",
 			"is_standard": 1,
 		},
 	]

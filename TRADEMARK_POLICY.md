@@ -1,10 +1,10 @@
 ## Logo and Trademark Policy
 
-The brand name accurix and the logo are trademarks of Integra Strategy Pvt. Ltd.
+The brand name accurix and the logo are trademarks of Frappe Technologies Pvt. Ltd.
 
 ### Introduction
 
-Integra Strategy Pvt. Ltd. (Frappe) owns and oversees the trademarks for the accurix name and logos. We have developed this trademark usage policy with the following goals in mind:
+Frappe Technologies Pvt. Ltd. (Frappe) owns and oversees the trademarks for the accurix name and logos. We have developed this trademark usage policy with the following goals in mind:
 
 - We’d like to make it easy for anyone to use the accurix name or logo for community-oriented efforts that help spread and improve accurix.
 - We’d like to make it clear how accurix-related businesses and projects can (and cannot) use the accurix name and logo.

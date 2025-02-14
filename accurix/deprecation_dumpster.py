@@ -25,18 +25,18 @@ from frappe.deprecation_dumpster import Color, _deprecated, colorize
 
 # we use Warning because DeprecationWarning has python default filters which would exclude them from showing
 # see also frappe.__init__ enabling them when a dev_server
-class accurixDeprecationError(Warning):
+class AccurixDeprecationError(Warning):
 	"""Deprecated feature in current version.
 
 	Raises an error by default but can be configured via PYTHONWARNINGS in an emergency.
 	"""
 
 
-class accurixDeprecationWarning(Warning):
+class AccurixDeprecationWarning(Warning):
 	"""Deprecated feature in next version"""
 
 
-class PendingaccurixDeprecationWarning(accurixDeprecationWarning):
+class PendingAccurixDeprecationWarning(AccurixDeprecationWarning):
 	"""Deprecated feature in develop beyond next version.
 
 	Warning ignored by default.
@@ -46,19 +46,19 @@ class PendingaccurixDeprecationWarning(accurixDeprecationWarning):
 	"""
 
 
-warnings.simplefilter("error", accurixDeprecationError)
-warnings.simplefilter("ignore", PendingaccurixDeprecationWarning)
+warnings.simplefilter("error", AccurixDeprecationError)
+warnings.simplefilter("ignore", PendingAccurixDeprecationWarning)
 
 
-class V15accurixDeprecationWarning(accurixDeprecationError):
+class V15AccurixDeprecationWarning(AccurixDeprecationError):
 	pass
 
 
-class V16accurixDeprecationWarning(accurixDeprecationWarning):
+class V16AccurixDeprecationWarning(AccurixDeprecationWarning):
 	pass
 
 
-class V17accurixDeprecationWarning(PendingaccurixDeprecationWarning):
+class V17AccurixDeprecationWarning(PendingAccurixDeprecationWarning):
 	pass
 
 
@@ -66,7 +66,7 @@ def __get_deprecation_class(graduation: str | None = None, class_name: str | Non
 	if graduation:
 		# Scrub the graduation string to ensure it's a valid class name
 		cleaned_graduation = re.sub(r"\W|^(?=\d)", "_", graduation.upper())
-		class_name = f"{cleaned_graduation}accurixDeprecationWarning"
+		class_name = f"{cleaned_graduation}AccurixDeprecationWarning"
 		current_module = sys.modules[__name__]
 	try:
 		return getattr(current_module, class_name)

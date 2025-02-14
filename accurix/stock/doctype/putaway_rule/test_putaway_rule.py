@@ -1,4 +1,4 @@
-# Copyright (c) 2020, Integra Strategy Pvt. Ltd. and Contributors
+# Copyright (c) 2020, Frappe Technologies Pvt. Ltd. and Contributors
 # See license.txt
 
 import frappe

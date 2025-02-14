@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Integra Strategy Pvt. Ltd. and Contributors
+# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -52,7 +52,7 @@ class TestItemPrice(IntegrationTestCase):
 		self.assertRaises(ItemPriceDuplicateItem, doc.save)
 
 	def test_addition_of_new_fields(self):
-		# Based on https://github.com/integra/accurix/issues/8456
+		# Based on https://github.com/frappe/accurix/issues/8456
 		test_fields_existance = [
 			"supplier",
 			"customer",

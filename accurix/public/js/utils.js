@@ -1,4 +1,4 @@
-// Copyright (c) 2015, Integra Strategy Pvt. Ltd. and Contributors
+// Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 frappe.provide("accurix");
 frappe.provide("accurix.utils");
@@ -386,7 +386,7 @@ $.extend(accurix.utils, {
 		if (frappe.boot.versions && !frappe.boot.versions.payments) {
 			const marketplace_link =
 				'<a href="https://frappecloud.com/marketplace/apps/payments">Marketplace</a>';
-			const github_link = '<a href="https://github.com/integra/payments/">GitHub</a>';
+			const github_link = '<a href="https://github.com/frappe/payments/">GitHub</a>';
 			const msg = __("payments app is not installed. Please install it from {0} or {1}", [
 				marketplace_link,
 				github_link,
